@@ -3,7 +3,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui;
-    background-image: url(/img/maxresdefault.jpg);
+    background-image:url(img/maxresdefault.jpg)
    
     /*caso queira mudar a barra de inicio  */
 }
