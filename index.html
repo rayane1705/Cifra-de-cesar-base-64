@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador César/64</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+ <nav id="inicio">
+        <div id="separador">
+            <div id="logo"><a>Dpejgjrvf</a>
+        </div>
+        
+</head>
+<body>
+   
+    <main>
+        <div id="texto-aprensetacao">
+            <p id="texto"> Dpejgjrvf É um codificador/decodificador que utiliza
+                as criptográfias da Cifra de César e Base64 para criptografar/descriptografar mensagens
+                desejadas pelo usuário.Adicione o texto desejado no primeiro bloco e escolha entra codificar ou decodifcar a mensagem com Base64 ou Cifra de César.
+            </p>
+            <p id="texto">
+                No início temos a caixinha da qual você ira digitar, após tem o botão para você selecionar a criptografia desejada, notarão que o número de <strong>"chaves"</strong> só aparece para a Cifra de César, então você terá que escolher um número de quantas casas você quer pular.Já no base 64, você não terá esse tipo de chave é só por a mão na massa e codificar.
+            </p>
+        </div>
+    
+        <div >
+    
+    
+        <div id="box">
+            <div class="caixa-texto">
+                <h2 id="subtitulo">Digite aqui</h2>
+                <textarea id="texto-entrada" required placeholder="Digite seu texto aqui..."></textarea>
+                
+            </div>
+            
+            <select id="selecao">
+                
+                <option value="cesar" id="cesar" selected>Cesar</option>
+                <option value="base" id="base64">Base64</option>
+
+            </select>
+
+            <div id="caixa-chave">
+                
+                <label id="legenda" for="chave">Chave:</label>
+                <input name = "escolha" type = "text" value = "" id= "chave">
+
+            </div>
+
+            <div id="caixa-escolha">
+                
+                <input name = "escolha" type ="radio" value = "Codificar" id = "codified"><label id="legenda">Codificar</label>
+                <input name = "escolha" type ="radio" value = "Decodificar" id = "decodified"><label id="legenda">Decodificar</label>
+                
+            </div>
+
+            <div class="confirma-btn">
+
+                <button id = "codificar-btn" class="botao">Codificar Mensagem!</button>
+                <button id = "decodificar-btn" class="botao">Decodificar Mensagem!</button>
+
+            </div>
+
+            <div id = "caixa-saida">
+            
+                <textarea id = "texto-saida"  placeholder="..."></textarea>
+
+            </div>
+            
+            <div id = "caixa-btn">
+                
+                <button id = "btn-apagar" class = "botao">Apagar</button>
+
+            </div>
+
+  
+
+        </div>
+    </main>
+
+    </div>
+
+    <div id="texto-aprensetacao">
+        <p id="texto"> Júlio César, imperador romano de 100 a.C. a 44 a.C., utilizava um código para proteger as mensagens enviadas a seus generais. Assim, se a mensagem caísse em mãos inimigas, a informação não poderia ser compreendida. Cada letra do alfabeto era substituída pela letra três posições à frente, ou seja, o “A” era substituído pelo “D”, o “B” pelo “E”, o “C” pelo “F”, e assim sucessivamente. Qualquer código que tenha esse padrão é considerado uma  Cifra de César, também conhecida como <a href=https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar>Código de César.</a>
+        </p>
+        <p id="texto"> <a href="https://pt.wikipedia.org/wiki/Base64">Base64</a> é um método para codificação de dados para transferência na Internet (codificação MIME para transferência de conteúdo). É utilizado frequentemente para transmitir dados binários por meios de transmissão que lidam apenas com texto, como por exemplo para enviar arquivos anexos por e-mail.
+
+            É constituído por 64 caracteres ([A-Z],[a-z],[0-9], "/" e "+") que deram origem ao seu nome.
+        </p>
+    </div>
+
+    <div class="final">
+
+
+        <h1>Se caso você ficou curioso para saber o nome da página, sendo sincera até eu já esqueci, caso tenha curiosidade atacante, utilizei cifra de césar e pulei apenas uma chave.</h1>
+     
+    </div>
+
+    <script src="script/cri.js"></script>
+
+</body>
+</html>
